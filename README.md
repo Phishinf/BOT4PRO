@@ -1,9 +1,12 @@
 # TECHNICAL DISCUSSION - BOT4PRO
 This is a technical communication for all issues of the different stages on development cycle amongst team members  
-Before going to the project, we can use gist to share and comment on code
+Before going to the project, we can use gist to share either in Gist or Colab and comment on code
 
 ## Gist
 This is a template that you can use it to share [the code](https://gist.github.com/AIBIZAPP/90126e343741c4ab4dfbc78f0494e7fc)  
+
+## Colab Template
+This is the [notebook](https://github.com/AIBIZAPP/BOT4PRO/blob/main/Templatenotebook.ipynb)
 
 ## Proof of Concept on GENERATIVE AI
 * To get the machine to understand the customer specific needs (question attributes x11, x12, ... , xN1, xN2, ..., XNn) from their question prompts (X1, X2, ... XN)
