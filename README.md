@@ -8,6 +8,9 @@ This is a template that you can use it to share [the code](https://gist.github.c
 ## Colab Template
 This is the [notebook](https://github.com/AIBIZAPP/BOT4PRO/blob/main/Templatenotebook.ipynb) which one can run on colab
 
+## Image
+
+
 ## Proof of Concept on GENERATIVE AI
 * To get the machine to understand the customer specific needs (question attributes x11, x12, ... , xN1, xN2, ..., XNn) from their question prompts (X1, X2, ... XN)
 * To able let the machine to relate the customer specific needs with (the document attributes y11, y12, ..., yM1, yM2, ..., yMm) document (Y1, Y2, ... ,YM)
