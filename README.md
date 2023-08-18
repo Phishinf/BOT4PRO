@@ -6,7 +6,7 @@ Before going to the project, we can use gist to share either in Gist or Colab an
 This is a template that you can use it to share [the code](https://gist.github.com/AIBIZAPP/90126e343741c4ab4dfbc78f0494e7fc)  
 
 ## Colab Template
-This is the [notebook](https://github.com/AIBIZAPP/BOT4PRO/blob/main/Templatenotebook.ipynb) which one can run on colab
+This is the template [notebook](https://github.com/AIBIZAPP/BOT4PRO/blob/main/Templatenotebook.ipynb) which one can run on colab
 
 ## Image
 ![Dale-E](https://user-images.githubusercontent.com/134267717/261605015-1cba70f5-54cc-4845-abd6-e030711ecfa9.png)
@@ -14,12 +14,24 @@ This is the [notebook](https://github.com/AIBIZAPP/BOT4PRO/blob/main/Templatenot
 ## Proof of Concept on GENERATIVE AI
 * To get the machine to understand the customer specific needs (question attributes x11, x12, ... , xN1, xN2, ..., XNn) from their question prompts (X1, X2, ... XN)
 * To able let the machine to relate the customer specific needs with (the document attributes y11, y12, ..., yM1, yM2, ..., yMm) document (Y1, Y2, ... ,YM)
+* To calculate the "score correlation" of (xi1, xi2, ... , ) and (yj1, yj2, ...) i =1,2,...500, j = 1,2,...Number of documents
 * To answer the specific need by the machine in human langauage to customer 
 
 ### Understand the NEED
-* To digest the different groupd of words or numerics represent the specific needs
-* To base on the limited number of prompt questions to generata addiitonal number of questions (at least 500 questions)
-* To calculate the "correlation" of (xi1, xi2, ... , ) and (yj1, yj2, ...) i =1,2,...500, j = 1,2,...Number of documents
+* To digest the different group of words or numerics represent the specific needs from the prompt questions
+* To base on the limited number of prompt questions to generata addiitonal number of questions (at least 500 questions) without loss the meaning
+* The generated questions are evaluated by the human input
+* From all questions, we find the "attributes" xi1, xi2, xi3, ... of question i (i=1,2,...,500)
+
+### Understand the documents
+* First form a sample of attributes yi1, yi2, ... for document i from a selected document summaries Y1, Y2, ... (level 2, abridged one)
+* From the sample attributes yi1, yi2, ... of selected document summaries Y1, Y2, ..., Train the machine using LLM model by fine-tuning to complete sort out attributes of each document summary.
+
+One can reference to the [fine-tuning model]()  
+
+### Calculate the SCORE of question prompt and documents (HEAT Diagram)
+
+### Answer the question in human language
 * Remark: use the initial set of limited number questions to create a diverse set of related questions. Here's a high-level approach you could consider:
 
 ####  Point to Focus
