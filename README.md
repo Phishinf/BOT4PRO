@@ -27,7 +27,7 @@ This is the template [notebook](https://github.com/AIBIZAPP/BOT4PRO/blob/main/Te
 * First form a sample of attributes yi1, yi2, ... for document i from a selected document summaries Y1, Y2, ... (level 2, abridged one)
 * From the sample attributes yi1, yi2, ... of selected document summaries Y1, Y2, ..., Train the machine using LLM model by fine-tuning to complete sort out attributes of each document summary.
 
-One can reference to the [fine-tuning model](Fine_tune_generative_ai_model.ipynb)  
+One can reference to the [fine-tuning model]([Fine_tune_generative_ai_model.ipynb](https://github.com/AIBIZAPP/BOT4PRO/blob/main/Fine_tune_generative_ai_model.ipynb))  
 
 ### Calculate the SCORE of question prompt and documents (HEAT Diagram)
 
