@@ -6,7 +6,7 @@ Before going to the project, we can use gist to share either in Gist or Colab an
 This is a template that you can use it to share [the code](https://gist.github.com/AIBIZAPP/90126e343741c4ab4dfbc78f0494e7fc)  
 
 ## Colab Template
-This is the [notebook](https://github.com/AIBIZAPP/BOT4PRO/blob/main/Templatenotebook.ipynb)
+This is the [notebook](https://github.com/AIBIZAPP/BOT4PRO/blob/main/Templatenotebook.ipynb) which one can run on colab
 
 ## Proof of Concept on GENERATIVE AI
 * To get the machine to understand the customer specific needs (question attributes x11, x12, ... , xN1, xN2, ..., XNn) from their question prompts (X1, X2, ... XN)
