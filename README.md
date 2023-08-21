@@ -26,7 +26,7 @@ This is the template [notebook](https://github.com/AIBIZAPP/BOT4PRO/blob/main/Te
 ### Understand the documents
 * First form a sample of attributes yi1, yi2, ... for document i from a selected document summaries Y1, Y2, ... (level 2, abridged one)
 * From the sample attributes yi1, yi2, ... of selected document summaries Y1, Y2, ..., Train the machine using LLM model by fine-tuning to complete sort out attributes of each document summary.
-![HuggingFaceEndtoEnd](https://user-images.githubusercontent.com/134267717/262067840-abcceccf-e6e4-4e49-8486-74f6a16e129b.jpg)
+![HuggingFaceEndtoEnd](https://user-images.githubusercontent.com/134267717/262072944-b244daed-23c5-4653-9dd4-9d2dd3f64004.png)
 
 One can reference the [fine-tuning model](https://github.com/AIBIZAPP/BOT4PRO/blob/main/Fine_tune_generative_ai_model.ipynb)  
 
