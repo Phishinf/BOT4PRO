@@ -19,13 +19,14 @@ This is the template [notebook](https://github.com/AIBIZAPP/BOT4PRO/blob/main/Te
 
 ### Understand the NEED
 * To digest the different groups of words or numerics that represent the specific needs from the prompt questions
-* To base on the limited number of prompt questions to generate an additional number of questions (at least 500 questions) without loss the meaning
+* To base on the limited number of prompt questions to generate an additional number of questions (at least 500 questions) without losing the meaning
 * The generated questions are evaluated by the human input
 * From all questions, we find the "attributes" xi1, xi2, xi3, ... of question i (i=1,2,...,500)
 
 ### Understand the documents
 * First form a sample of attributes yi1, yi2, ... for document i from a selected document summaries Y1, Y2, ... (level 2, abridged one)
 * From the sample attributes yi1, yi2, ... of selected document summaries Y1, Y2, ..., Train the machine using LLM model by fine-tuning to complete sort out attributes of each document summary.
+![HuggingFaceEndtoEnd](https://user-images.githubusercontent.com/134267717/262067840-abcceccf-e6e4-4e49-8486-74f6a16e129b.jpg)
 
 One can reference the [fine-tuning model](https://github.com/AIBIZAPP/BOT4PRO/blob/main/Fine_tune_generative_ai_model.ipynb)  
 
