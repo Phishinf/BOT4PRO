@@ -7,7 +7,7 @@ install-azure:
 		pip install -r requirements-azure.txt
 
 format:
-	blcak *py
+	black *py
 
 lint:
 	pylint --disable=R,C hello.py
