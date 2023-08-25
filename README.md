@@ -20,7 +20,8 @@ This is the template [notebook](https://github.com/AIBIZAPP/BOT4PRO/blob/main/Te
 ### Understand the NEED
 * To digest the different groups of words or numerics that represent the specific needs from the prompt questions
 * To base on the limited number of prompt questions to generate an additional number of questions (at least 500 questions) without losing the meaning
-Back up codes for reference:
+
+Back up codes for reference:https://github.com/AIBIZAPP/BOT4PRO/blob/main/question_generation_via_GPT.ipynb
 #### by the following code
 
 * The generated questions are evaluated by the human input
