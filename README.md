@@ -17,30 +17,29 @@ All codes can run on the Colab environment [template notebook](https://github.co
 * To calculate the "score correlation" of (xi1, xi2, ... , ) and (yj1, yj2, ...) i =1,2,...500, j = 1,2,...Number of documents
 * To answer the specific need of the machine in human language to the customer 
 
-### Understand the NEED
+### Step 1: Understand the NEED
 * To digest the different groups of words or numerics that represent the specific needs from the prompt questions
 * To base on the limited number of prompt questions to generate an additional number of questions (at least 500 questions) without losing the meaning
 
-[Codes for reference](https://github.com/AIBIZAPP/BOT4PRO/blob/main/question_generation_via_GPT.ipynb)
-#### by the following code
+[Code for reference](https://github.com/AIBIZAPP/BOT4PRO/blob/main/question_generation_via_GPT.ipynb)
 
-* The generated questions are evaluated by the human input
+* The generated questions are evaluated by the human feedback
 
 * From all questions, we find the "attributes" xi1, xi2, xi3, ... of question i (i=1,2,...,500)
-#### Use the following notebook
 
+[Code for reference]
 
-### Understand the documents
+### Step 2: Understand the documents
 * First form a sample of attributes yi1, yi2, ... for document i from a selected document summaries Y1, Y2, ... (level 2, abridged one)
 * From the sample attributes yi1, yi2, ... of selected document summaries Y1, Y2, ..., Train the machine using LLM model by fine-tuning to complete sort out attributes of each document summary.
 ![HuggingFaceEndtoEnd](https://user-images.githubusercontent.com/134267717/262072944-b244daed-23c5-4653-9dd4-9d2dd3f64004.png)
 
 One can reference the [fine-tuning model](https://github.com/AIBIZAPP/BOT4PRO/blob/main/Fine_tune_generative_ai_model.ipynb)  
 
-### Calculate the SCORE of the question prompt and documents (HEAT Diagram)
+### Step 3: Calculate the SCORE of the question prompt and documents (HEAT Diagram)
 
-### Answer the question in human language
-* Remark: use the initial set of a limited number of questions to create a diverse set of related questions. Here's a high-level approach you could consider:
+## Answer the question in human language
+* Remark: Use the initial set of a limited number of questions to create a diverse set of related questions. Here's a high-level approach you could consider:
 
 ####  Point to Focus
 Analyze the 60 Questions: Understand the patterns, structures, and common themes in the original 60 questions. 
