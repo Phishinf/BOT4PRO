@@ -5,8 +5,8 @@ Before going to the project, we can use gist to share either in Gist or Colab an
 ## Gist
 This is a template that you can use to share [the code](https://gist.github.com/AIBIZAPP/90126e343741c4ab4dfbc78f0494e7fc)  
 
-## Colab TestGround
-All code can run on the Colab environment [template notebook](https://github.com/AIBIZAPP/BOT4PRO/blob/main/Templatenotebook.ipynb)
+## Colab Test Ground
+All codes can run on the Colab environment [template notebook](https://github.com/AIBIZAPP/BOT4PRO/blob/main/Templatenotebook.ipynb)
 
 ## Image
 ![Dale-E](https://user-images.githubusercontent.com/134267717/261605015-1cba70f5-54cc-4845-abd6-e030711ecfa9.png)
