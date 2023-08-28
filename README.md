@@ -27,7 +27,7 @@ All codes can run on the Colab environment [template notebook](https://github.co
 
 * From all questions, we find the "attributes" xi1, xi2, xi3, ... of question i (i=1,2,...,500)
 
-[Code for reference]
+[Code for reference](https://github.com/AIBIZAPP/BOT4PRO/blob/main/Generate_key_info_with_ChatGPT3_5.ipynb)
 
 ### Step 2: Understand the documents
 * First form a sample of attributes yi1, yi2, ... for document i from a selected document summaries Y1, Y2, ... (level 2, abridged one)
