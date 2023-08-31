@@ -21,13 +21,13 @@ All codes can run on the Colab environment [template notebook](https://github.co
 * To digest the different groups of words or numerics that represent the specific needs from the prompt questions
 * To base on the limited number of prompt questions to generate an additional number of questions (at least 500 questions) without losing the meaning
 
-[Code for reference](https://github.com/AIBIZAPP/BOT4PRO/blob/main/question_generation_via_GPT.ipynb)
+[question_generation_via_GPT](https://github.com/AIBIZAPP/BOT4PRO/blob/main/question_generation_via_GPT.ipynb)
 
 * The generated questions are evaluated by the human feedback
 
 * From all questions, we find the "attributes" xi1, xi2, xi3, ... of question i (i=1,2,...,500)
 
-[Code for reference](https://github.com/AIBIZAPP/BOT4PRO/blob/main/Generate_key_info_with_ChatGPT3_5.ipynb)
+[Generate_key_info_GPT3.5(txt&doc) for reference](https://github.com/AIBIZAPP/BOT4PRO/blob/main/Generate_key_info_GPT3.5(txt%26doc).ipynb)
 
 ### Step 2: Understand the documents
 * First form a sample of attributes yi1, yi2, ... for document i from a selected document summaries Y1, Y2, ... (level 2, abridged one)
