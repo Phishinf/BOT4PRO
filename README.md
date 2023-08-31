@@ -19,9 +19,9 @@ All codes can run on the Colab environment [template notebook](https://github.co
 
 ### Step 1: Understand the NEED
 * To digest the different groups of words or numerics that represent the specific needs from the prompt questions
-* To base on the limited number of prompt questions to generate an additional number of questions (at least 500 questions) without losing the meaning
+* To base on the limited number of prompt questions to generate an additional number of questions (at least 1000 valid questions, at least 200 invalid questions) without losing the meaning
 
-[question_generation_via_GPT](https://github.com/AIBIZAPP/BOT4PRO/blob/main/question_generation_via_GPT.ipynb)
+[Question_generation_via_GPT](https://github.com/AIBIZAPP/BOT4PRO/blob/main/question_generation_via_GPT.ipynb)
 
 * The generated questions are evaluated by the human feedback
 
