@@ -37,7 +37,7 @@ All codes can run on the Colab environment [template notebook](https://github.co
 One can reference the [fine-tuning model](https://github.com/AIBIZAPP/BOT4PRO/blob/main/Fine_tune_generative_ai_model.ipynb)  
 
 ### Step 3: Calculate the SCORE of the question prompt and documents (HEAT Diagram)
-
+![Vertex AI](https://user-images.githubusercontent.com/134267717/265273314-a76a2161-e88f-4d3b-9a5b-bf70d107c3a5.png)
 ## Answer the question in human language
 * Remark: Use the initial set of a limited number of questions to create a diverse set of related questions. Here's a high-level approach you could consider:
 
