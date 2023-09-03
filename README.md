@@ -8,7 +8,7 @@ This is a template that you can use to share [the code](https://gist.github.com/
 ## Colab Test Ground
 All codes can run on the Colab environment [template notebook](https://github.com/AIBIZAPP/BOT4PRO/blob/main/Templatenotebook.ipynb)
 
-## Image
+## Generative AI
 ![Dale-E](https://user-images.githubusercontent.com/134267717/261605015-1cba70f5-54cc-4845-abd6-e030711ecfa9.png)
 
 ## Proof of Concept on GENERATIVE AI
