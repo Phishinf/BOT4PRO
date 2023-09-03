@@ -42,6 +42,8 @@ One can reference the [fine-tuning model](https://github.com/AIBIZAPP/BOT4PRO/bl
 #### Documentation of Google AI Platform
 [Generative AI Studio](https://github.com/AIBIZAPP/BOT4PRO/blob/main/intro_generative_ai_studio.md)
 
+[Palm API and Python SDK](https://github.com/AIBIZAPP/BOT4PRO/blob/main/intro_palm_api.ipynb)
+
 ## Answer the question in human language
 * Remark: Use the initial set of a limited number of questions to create a diverse set of related questions. Here's a high-level approach you could consider:
 
